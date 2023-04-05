@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors</title>
+    <link rel="icon" type="image/x-icon" href="./images/robot.png" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
+    <script src="./particles.min.js" defer></script>
+  </head>
+
+  <body>
+    <div class="game">
+      <h1>Rock, Paper, Scissors</h1>
+      <div class="icons">
+        <img class="rock" src="./images/stone.png" />
+        <img class="paper" src="./images/page.png" />
+        <img class="scissors" src="./images/scissors.png" />
+      </div>
+      <div class="players">
+        <div class="player">
+          <img src="./images/avatar.png" alt="player" />
+          <h2><span id="player-score"></span></h2>
+        </div>
+        <div class="computer">
+          <img src="./images/robot.png" />
+          <h2><span id="computer-score"></span></h2>
+        </div>
+      </div>
+      <div class="outcome">Click on an icon to play your turn!</div>
+      <div class="result">
+        <h1><span id="result"></span></h1>
+        <button id="replay">Play again</button>
+      </div>
+    </div>
+
+    <div class="attribution">
+      <p>
+        Designed by <a href="https://github.com/IceCoffee426">IceCoffe426</a>
+      </p>
+      <p>
+        Rock icon created by
+        <a href="https://www.flaticon.com/free-icons/rock">Icongeek26</a> -
+        <a href="http://www.flaticon.com/">Flaticon</a>
+      </p>
+      <p>
+        Paper icon created by
+        <a
+          href="https://www.flaticon.com/free-icons/files-and-folders"
+          title="files and folders icons"
+          >Payungkead</a
+        >
+        - <a href="http://www.flaticon.com/">Flaticon</a>
+      </p>
+      <p>
+        Scissors/robot icons created by
+        <a href="https://www.flaticon.com/free-icons/paper">Freepik</a> -
+        <a href="http://www.flaticon.com/">Flaticon</a>
+      </p>
+      <p>
+        Person icon created by
+        <a href="https://www.flaticon.com/free-icons/account">Kalashnyk</a> -
+        <a href="http://www.flaticon.com/">Flaticon</a>
+      </p>
+    </div>
+    <canvas class="background"></canvas>
+  </body>
+</html>
