@@ -1,6 +1,6 @@
 # Rock, Paper, Scissors
 
-Play Rock, Paper, Scissors against an automated computer. First one to 5 points wins.
+Play Rock, Paper, Scissors against an automated computer. First one to 5 points wins. [Live preview](https://icecoffee426.github.io/rock-paper-scissors).
 
 ## Description
 
