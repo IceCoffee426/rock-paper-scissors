@@ -99,11 +99,22 @@ h1 {
   text-align: left;
   position: absolute;
   bottom: 0;
+  left: 20px;
 }
 
-a:link,
-a:visited {
-  color: lightskyblue;
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline;
+}
+
+a img:hover {
+  outline: 1px solid white;
+  text-decoration: none;
 }
 
 #replay {

@@ -1,6 +1,6 @@
 # Rock, Paper, Scissors
 
-Play Rock, Paper, Scissors against an automated computer. First one to 5 points wins. [Live preview](https://icecoffee426.github.io/rock-paper-scissors).
+Play Rock, Paper, Scissors against an automated computer. First one to 5 points wins. [Live preview](https://shubsmastan.github.io/rock-paper-scissors).
 
 ## Description
 
@@ -8,7 +8,7 @@ Created as part of the JavaScript beginner's course on [The Odin Project](https:
 
 ## Author
 
-[@IceCoffee426](https://github.com/icecoffee426)
+[@ShubsMastan](https://github.com/shubsmastan)
 
 ## Version History
 
