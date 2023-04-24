@@ -1,6 +1,6 @@
 # Rock, Paper, Scissors
 
-[Live preview](https://shubsmastan.github.io/rock-paper-scissors).<br/>
+[Live preview](https://shubsmastan.github.io/rock-paper-scissors).<br/><br/>
 Play Rock, Paper, Scissors against an automated computer. First one to 5 points wins.
 
 ## Description
