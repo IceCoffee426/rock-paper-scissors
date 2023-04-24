@@ -14,9 +14,15 @@
     <div class="game">
       <h1>Rock, Paper, Scissors</h1>
       <div class="icons">
-        <img class="rock" src="./images/stone.png" />
-        <img class="paper" src="./images/page.png" />
-        <img class="scissors" src="./images/scissors.png" />
+        <button aria-label="Play rock">
+          <img class="rock" src="./images/stone.png" />
+        </button>
+        <button aria-label="Play paper">
+          <img class="paper" src="./images/page.png" />
+        </button>
+        <button aria-label="Play scissors">
+          <img class="scissors" src="./images/scissors.png" />
+        </button>
       </div>
       <div class="players">
         <div class="player">
@@ -24,7 +30,7 @@
           <h2><span id="player-score"></span></h2>
         </div>
         <div class="computer">
-          <img src="./images/robot.png" />
+          <img src="./images/robot.png" alt="robot" />
           <h2><span id="computer-score"></span></h2>
         </div>
       </div>
@@ -37,41 +43,26 @@
 
     <div class="attribution">
       <p>
-        Designed by
-        <a href="https://github.com/shubsmastan">ShubsMastan</a>&nbsp;&nbsp;<a
-          href="https://github.com/shubsmastan"
-        >
+        Icons from
+        <a href="http://www.flaticon.com/">Flaticon</a>
+      </p>
+      <div class="flex">
+        <p>
+          Designed by
+          <a href="https://github.com/shubsmastan">ShubsMastan</a>&nbsp;&nbsp;<a
+            href="https://github.com/shubsmastan"
+          >
+          </a>
+        </p>
+        <a href="https://github.com/shubsmastan">
           <img
             height="17px"
             width="auto"
             src="./images/github-mark-white.png"
+            alt="github logo"
           />
         </a>
-      </p>
-      <p>
-        Rock icon created by
-        <a href="https://www.flaticon.com/free-icons/rock">Icongeek26</a> -
-        <a href="http://www.flaticon.com/">Flaticon</a>
-      </p>
-      <p>
-        Paper icon created by
-        <a
-          href="https://www.flaticon.com/free-icons/files-and-folders"
-          title="files and folders icons"
-          >Payungkead</a
-        >
-        - <a href="http://www.flaticon.com/">Flaticon</a>
-      </p>
-      <p>
-        Scissors/robot icons created by
-        <a href="https://www.flaticon.com/free-icons/paper">Freepik</a> -
-        <a href="http://www.flaticon.com/">Flaticon</a>
-      </p>
-      <p>
-        Person icon created by
-        <a href="https://www.flaticon.com/free-icons/account">Kalashnyk</a> -
-        <a href="http://www.flaticon.com/">Flaticon</a>
-      </p>
+      </div>
     </div>
     <canvas class="background"></canvas>
   </body>
